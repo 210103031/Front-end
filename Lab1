@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Laboratory work1</title>
+    </head>
+    <style>
+        .table, th, td {
+          border: 1px solid black;
+        }
+
+        .img {
+            width: 50%;
+          }
+        </style>
+        
+          
+    <body>
+        <h2>Plans for today</h2>
+        <div>To do list:</div>
+
+        <ul>
+            <li>Laboratory work1</li>
+            <li>Quiz1 </li>
+            <li>Solving problems Mat153</li>
+          </ul>  
+
+          <div>Check your schedule via given link: <a href="https://my.sdu.edu.kz" target="_blank">my.sdu.edu.kz</a></div>
+          <div><b>Bold text</b></div>
+          <br>
+          <div><i>Italic text</i></div>
+          <p>Paragraph</p>
+          <h1>Heading! Biggest</h1>
+          <h6>Heading! smallest</h6>
+
+          <img src="https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb" alt="Mountain" width="300" height="400">
+          
+          <p>
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Pre Final</th> 
+              <th>Final</th>
+              <th>Total</th>
+            </tr>
+            <tr>
+              <td>Math</td>
+              <td>40</td>
+              <td>40</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>Computing</td>
+              <td>70</td>
+              <td>90</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>100</td>
+              <td>100</td>
+              <td>100</td>
+            </tr>
+          </table>
+        </p>
+          
+          
+    </body>
+
