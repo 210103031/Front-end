@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>About us - Lab3</title>
+    <style>
+        body {
+    margin: 0;
+    background: url("/Users/zhaneldruskuldinova/Downloads/LucyLaunchB_Kraus_2048.jpg");
+    background-size: 100%;
+}
+
+
+.header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 0 0 30px;
+}
+
+
+/* Lab3 page1 */
+
+.header {
+    border: 1px solid #BEBFC3;
+    background: #c7c8c9;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    opacity : 0.8;
+    padding: 15px;
+    text-align: center;
+    margin: 6%;
+    text-align: left;
+    width: 60%;
+}
+
+.insta {
+    position: fixed;
+    font-size:48px;
+    color:red;
+    right: 15px;
+    margin: 0 30px 0 0;
+    bottom: 100px;
+}
+
+
+
+/* Lab3 page2 */
+.about h1 {
+    color: white;
+    margin: 50px;
+}
+
+.about h2 {
+    color: white;
+    margin: 50px;
+    border: solid 2px white;
+    width: 155px;
+    padding: 10px;
+    font-size: 28px; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+.schedule h1 {
+    text-align: center;
+    color: white;
+}
+
+.table {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255, 0);
+    margin: 0 100px 0 350px;
+}
+
+.table thead {
+    color: white;
+    background-color: rgb(93, 93, 93);
+}
+
+.table tbody {
+    color: black;
+    background-color: rgb(195, 195, 195);
+}
+
+/* ------------------------------------------------ */
+
+
+.footer {
+
+    width: 100%;
+    height: 85px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    background-color: rgb(57, 57, 57);
+    color: #a8aa94;
+    margin: 0px;
+    min-width: 900px;
+    position: fixed;
+    bottom:0px;
+} 
+
+.footer a {
+    color: #a8aa94;
+    text-decoration: none;
+    padding: 0 200px 0 200px;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot2022 {
+    width: 100%;
+    height: auto;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    background-color: black;
+    color: #a8aa94;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+    position: fixed;
+}
+.margin{
+    position: relative;
+    margin-left: 85%;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Navbar</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 margin" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success margin-left" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <div class="about">
+        <h1>About us</h1>
+    </div>
+    <div class="schedule">
+        <h1>My Schedule</h1>
+        <table class="table" border width=900px>
+            <thead>
+                <tr>
+                    <td>Day/Hour</td>
+                    <td>Monday</td>
+                    <td>Tuesday</td>
+                    <td>Wednesday</td>
+                    <td>Thursday</td>
+                    <td>Friday</td>
+                    <td>Saturday</td>
+                </tr>
+            </thead>  
+            </thead>  
+            </thead>  
+            <tbody>
+                <tr>
+                    <td>9:00</td>
+                    <td rowspan="2">CSS 152</td>
+                    <td rowspan="2">INF 231</td>
+                    <td rowspan="9"> Day off </td>
+                    <td>Free time</td>
+                    <td>INF 202</td>
+                    <td>MDE 152</td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td rowspan="2">INF 202</td>
+                    <td>MDE 247</td>
+                    <td rowspan="8">Free time</td>
+                </tr>
+                <tr>
+                    <td>11:00</td>
+                    <td rowspan="2">MDE 133</td>
+                    <td rowspan="5">Free time</td>
+                    <td rowspan="3">MDE 117</td>
+                    
+
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                    <td rowspan="6">Free time</td>
+                   
+                    
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td>Free time</td>
+                  
+                </tr>
+                <tr>
+                    <td>14:00</td>
+                    <td>CSS 152</td>
+                    <td>Free time</td>
+                </tr>
+                <tr>
+                    <td>15:00</td>
+                    <td rowspan="2">Free time</td>
+                    <td rowspan="3">MDE 125</td>
+                </tr>
+                <tr>
+                    <td>16:00</td>
+                    <td>INF 231</td>
+                    
+                </tr>
+                <tr>
+                    <td>17:00</td>
+                    <td>MDE 151</td>
+                    <td></td>
+                </tr>
+            </tbody>
+
+
+
+        </table>
+    </div>
+
+    <div class="footer">
+        <p>
+            <a href="Lab3.html">Home</a> |
+            <a href="Lab3_1.html">About us</a> |
+            <a href="#">Contacts</a>
+        </p>
+        <p class="foot2022">Druskuldinova Zhanelya 2022</p>
+    </div>
+</body>
+</html>
