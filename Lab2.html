@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laboratiry work2</title>
+        <style>
+            .red{
+                color: red;
+            }
+            .red_background{
+                background-color: red;
+                color:white;
+            }
+            .border-top{
+                border: 0px dashed;
+                border-bottom-color: red;
+                border-bottom-width: 3px;
+                border-top: 2px dotted green;
+            }
+            .rgba-red{
+                color: rgba(255, 0, 0, 0.3);
+            }
+            .hex-red {
+                color: #ff0000;
+            }
+            .padding{
+                padding: 20px;
+               
+            }
+            .padding-background{
+                background-color: yellow;
+            }
+            .margin{
+                margin: 20px;
+                /*background-color: yellow;*/
+            }
+            .margin-top{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .border{
+                border: 3px solid black;
+            }
+            .border-round{
+                border-radius: 4%;
+            }
+        
+            .width-height-circle{
+                width: 60px;
+                height: 60px;
+            }
+            .width-height{
+                height: 20px;
+                width: 1200px;
+            }
+            .rounded{
+                border-radius: 50%;
+            }
+            .inline{
+                display: inline ;
+            }
+            
+            .block{
+                display: block;
+            }
+            .text-decoration{
+                text-decoration: green;
+            }
+            
+            .text-left{
+                text-align: left;
+               
+            }
+            .text-right{
+                text-align: right;
+               
+            }
+            .text-center{
+                text-align: center;
+
+            }
+            .border-radius{
+                border-radius: 20px;
+            }
+            .inline-block{
+                display: inline-block;
+            }
+            .width-height1{
+                width: 50px;
+                height: 50px;
+            }
+        
+            
+           
+            
+            
+        </style>
+
+
+    </head>
+    <body>
+        <div style = "color:red;">My color is red</div>
+        <div class = "red">My colour is red too</div>
+        <div class = "rgba-red">My color is rgba-red</div>
+        <div class = "hex-red">My color is hex red</div>
+        <div class = "red_background">My background color is red</div>
+
+        <div class = "padding padding-background border">I have padding same on each side</div>
+        <div class = "margin border-top"> I have margin 20px on rears and 10px on top and bottom</div>
+
+        <div class = "border red_background padding border-radius">I am a little rounded</div>
+        <div class = "rounded padding-background border width-height padding" > I am fully rounded</div>
+        <div class = "red_background border rounded width-height-circle padding" style = "text-align: left;"> I am circle</div>
+
+        <a href="">I am tag which is inline by defautlt</a>
+        <div class = "inline ">I am div which is inline</div>
+        <a href = "" class = "margin-top block text-decoration">I was a tag which was inline but now I am block</a>
+        <div class = "padding-background inline ">I am an inline div near an inline block div</div>
+        <div class = "block red_background inline-block width-height1"> Inline block</div>
+        <div class = "text-left"> Text left (default)</div>
+        <div class = "text-right"> Text right</div>
+        <div class = "text-center"> Text center</div>
+    </body>
+</html>
